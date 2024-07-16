@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url("bg.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.caixa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #faf8f8;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: font-size 0.3s, text-decoration 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.principal {
+    background: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+}
+
+.titulo-centralizado {
+    margin: 20px 0;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    max-width: 50%;
+}
+
+.sobre {
+    background: url("bg.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding: 60px 20px;
+    margin-top: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    color: #fff;
+}
+
+.sobre::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.0); 
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.sobre-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.texto-sobre {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.texto-sobre p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#missao {
+    font-size: 20px;
+    color: #ffffff; 
+}
+
+em strong {
+    font-weight: 700
+}
+
+.imagens-sobre {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imagens-sobre img {
+    padding: 0%;
+    margin-top: 0%;
+    margin-left: 150px;
+    width: 50%;
+    height: 100%;
+    max-width: 600px; 
+    border-radius: 8px;
+}
+
+.titulo-beneficios {
+	margin: 20px 0;
+    font-size: 30px;
+	color: white;
+}
+
+.beneficios {
+    background: url("bg.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding: 60px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    color: #fff;
+}
+
+.beneficios-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-beneficios {
+	padding-right: 20px;
+	color: #ffffff;
+    flex: 1;
+    text-align: center; 
+}
+
+.beneficios ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: inline-block; /* Centraliza a lista */
+}
+
+.beneficios .itens {
+	font-size: 18px;
+	line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 20px;
+	margin-left: 20px;
+	padding-right: 20px;
+}
+
+.imagembeneficios {
+    flex: 1;
+    max-width: 50%;
+	max-height: 400px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 40px 0;
+    color: #faf8f8;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
